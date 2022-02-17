@@ -1,0 +1,15 @@
+
+I created the LEVELs classification technique to categorize market **price levels**. It is based on [Keltner Channels](https://school.stockcharts.com/doku.php?id=technical_indicators:keltner_channels).  The bands I use are comprised of two 14 day [ATRs](https://school.stockcharts.com/doku.php?id=technical_indicators:average_true_range_atr) multiplied by 3 and placed above and below an 80 day [exponential moving average](https://school.stockcharts.com/doku.php?id=technical_indicators:moving_averages). I found these settings to work well for market averages The levels are analogous to notes on a music scale with LEVEL_B as the middle line on the [[ind.levels.treble-clef]]
+
+![[ind.levels.LEVEL_F]]
+![[ind.levels.LEVEL_G]]
+![[ind.levels.LEVEL_A]]
+![[ind.levels.LEVEL_B]]
+![[ind.levels.LEVEL_C]]
+![[ind.levels.LEVEL_D]]
+![[ind.levels.LEVEL_E]]
+![[ind.levels.LEVEL_D_MINUS]]
+![[ind.levels.LEVEL_C_MINUS]]
+![[ind.levels.LEVEL_B_MINUS]]
+![[ind.levels.LEVEL_A_MINUS]]
+![[ind.levels.LEVEL_G_MINUS]]

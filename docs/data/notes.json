@@ -14,8 +14,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1645286606976,
-      "created": 1645286606976,
+      "updated": 1645995516727,
+      "created": 1645995516727,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -107,6 +107,7 @@
       "links": [],
       "anchors": {},
       "children": [
+        "Rjz44RnDxBcbX616BMGXP",
         "o0nsbi6LUS5CNLlMvxiSx"
       ],
       "parent": "06Hc3CPzQaboh5cqFZBJb",
@@ -116,7 +117,7 @@
       "id": "o0nsbi6LUS5CNLlMvxiSx",
       "title": "Journal",
       "desc": "",
-      "updated": 1644116587340,
+      "updated": 1645287214629,
       "created": 1644093999187,
       "custom": {},
       "fname": "templates.daily.journal",
@@ -129,37 +130,8 @@
         },
         "name": "jchartupdates"
       },
-      "contentHash": "232117314d5f311a4b7f9a40f7d3bcb1",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "templates.daily.journal",
-            "id": "o0nsbi6LUS5CNLlMvxiSx",
-            "vaultName": "jchart"
-          },
-          "value": "strategies.exponential-regression",
-          "alias": "strategies.exponential-regression",
-          "position": {
-            "start": {
-              "line": 12,
-              "column": 43,
-              "offset": 153
-            },
-            "end": {
-              "line": 12,
-              "column": 80,
-              "offset": 190
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "strategies.exponential-regression"
-          }
-        }
-      ],
+      "contentHash": "4983bde127053e9414fd2651e4b63dce",
+      "links": [],
       "anchors": {
         "overall-market": {
           "type": "header",
@@ -184,12 +156,66 @@
           "line": 12,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "T7KfxhgNsWpeyUjtTGl4k",
+      "data": {}
+    },
+    "Rjz44RnDxBcbX616BMGXP": {
+      "id": "Rjz44RnDxBcbX616BMGXP",
+      "title": "Journal Lists",
+      "desc": "",
+      "updated": 1645287207194,
+      "created": 1645287207194,
+      "custom": {},
+      "fname": "templates.daily.journal-lists",
+      "type": "note",
+      "vault": {
+        "fsPath": "jchartupdates",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
         },
+        "name": "jchartupdates"
+      },
+      "contentHash": "3911aecc607e5aad39023b1e57ad143b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.daily.journal-lists",
+            "id": "Rjz44RnDxBcbX616BMGXP",
+            "vaultName": "jchartupdates"
+          },
+          "value": "strategies.exponential-regression",
+          "alias": "strategies.exponential-regression",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 43,
+              "offset": 102
+            },
+            "end": {
+              "line": 6,
+              "column": 80,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "strategies.exponential-regression"
+          }
+        }
+      ],
+      "anchors": {
         "strong-sectors": {
           "type": "header",
           "text": "Strong Sectors",
           "value": "strong-sectors",
-          "line": 14,
+          "line": 8,
           "column": 0,
           "depth": 3
         },
@@ -197,7 +223,7 @@
           "type": "header",
           "text": "First 50 Day High after MA 10 x 21",
           "value": "first-50-day-high-after-ma-10-x-21",
-          "line": 16,
+          "line": 10,
           "column": 0,
           "depth": 2
         },
@@ -205,7 +231,7 @@
           "type": "header",
           "text": "Top 10 Ranked Momentum Stocks based on strategies.exponential-regression",
           "value": "top-10-ranked-momentum-stocks-based-on-strategiesexponential-regression",
-          "line": 18,
+          "line": 12,
           "column": 0,
           "depth": 2
         },
@@ -213,7 +239,7 @@
           "type": "header",
           "text": "Focus Stocks",
           "value": "focus-stocks",
-          "line": 20,
+          "line": 14,
           "column": 0,
           "depth": 2
         }
@@ -245,6 +271,7 @@
       "links": [],
       "anchors": {},
       "children": [
+        "u2rgy4mrre7pyr0j5d040kc",
         "8bTIr8r3DMm7ZWJlvAL5N"
       ],
       "parent": "jT4EWubNjG3mQJMms7cc2",
@@ -271,20 +298,20 @@
       "links": [
         {
           "from": {
-            "fname": "templates.daily.journal",
+            "fname": "templates.daily.journal-lists",
             "vaultName": "jchartupdates"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 12,
+              "line": 6,
               "column": 43,
-              "offset": 153
+              "offset": 102
             },
             "end": {
-              "line": 12,
+              "line": 6,
               "column": 80,
-              "offset": 190
+              "offset": 139
             },
             "indent": []
           },
@@ -378,28 +405,6 @@
           },
           "value": "strategies.exponential-regression",
           "alias": "strategies.exponential-regression"
-        },
-        {
-          "from": {
-            "fname": "daily.journal.2022.02.19",
-            "vaultName": "jchartupdates"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 17,
-              "column": 43,
-              "offset": 225
-            },
-            "end": {
-              "line": 17,
-              "column": 80,
-              "offset": 262
-            },
-            "indent": []
-          },
-          "value": "strategies.exponential-regression",
-          "alias": "strategies.exponential-regression"
         }
       ],
       "anchors": {
@@ -424,6 +429,86 @@
           "text": "Adjusted Slope Formula",
           "value": "adjusted-slope-formula",
           "line": 20,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "sirRzFe1V3gAe8nCTJJII",
+      "data": {}
+    },
+    "u2rgy4mrre7pyr0j5d040kc": {
+      "id": "u2rgy4mrre7pyr0j5d040kc",
+      "title": "Current Range Break",
+      "desc": "",
+      "updated": 1645993835673,
+      "created": 1645992774810,
+      "custom": {},
+      "fname": "strategies.current-range-break",
+      "type": "note",
+      "vault": {
+        "fsPath": "jchartupdates",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
+        },
+        "name": "jchartupdates"
+      },
+      "contentHash": "9d28663b0980be19741e23e03a812a3c",
+      "links": [
+        {
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 5,
+              "offset": 308
+            },
+            "end": {
+              "line": 22,
+              "column": 39,
+              "offset": 342
+            },
+            "indent": []
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break"
+        }
+      ],
+      "anchors": {
+        "the-logic": {
+          "type": "header",
+          "text": "The logic",
+          "value": "the-logic",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "entry-price": {
+          "type": "header",
+          "text": "Entry Price",
+          "value": "entry-price",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "initial-stop": {
+          "type": "header",
+          "text": "Initial stop",
+          "value": "initial-stop",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "exit": {
+          "type": "header",
+          "text": "Exit",
+          "value": "exit",
+          "line": 24,
           "column": 0,
           "depth": 3
         }
@@ -1590,6 +1675,27 @@
             "indent": []
           },
           "value": "ind.steptrend.STEPTREND_DOWN"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 179
+            },
+            "end": {
+              "line": 14,
+              "column": 34,
+              "offset": 212
+            },
+            "indent": []
+          },
+          "value": "ind.steptrend.STEPTREND_DOWN"
         }
       ],
       "anchors": {
@@ -2554,7 +2660,7 @@
       "id": "qic43GdOJiwS7lp2jZKem",
       "title": "LEVEL_F",
       "desc": "",
-      "updated": 1645285306387,
+      "updated": 1645285001356,
       "created": 1644095359044,
       "custom": {},
       "fname": "ind.levels.LEVEL_F",
@@ -2567,7 +2673,7 @@
         },
         "name": "jchartupdates"
       },
-      "contentHash": "160ff576ece65766e305f391d8d37346",
+      "contentHash": "d69e6eb81cc67db69a4cc2e52fae6c43",
       "links": [
         {
           "type": "wiki",
@@ -2596,9 +2702,89 @@
           "to": {
             "fname": "ind.levels"
           }
+        },
+        {
+          "from": {
+            "fname": "ind.levels",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 681
+            },
+            "end": {
+              "line": 4,
+              "column": 24,
+              "offset": 704
+            },
+            "indent": []
+          },
+          "value": "ind.levels.LEVEL_F"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.02.19",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 46
+            },
+            "end": {
+              "line": 7,
+              "column": 24,
+              "offset": 69
+            },
+            "indent": []
+          },
+          "value": "ind.levels.LEVEL_F"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 136
+            },
+            "end": {
+              "line": 10,
+              "column": 24,
+              "offset": 159
+            },
+            "indent": []
+          },
+          "value": "ind.levels.LEVEL_F"
         }
       ],
-      "anchors": {},
+      "anchors": {
+        "outside-lower-band": {
+          "type": "header",
+          "text": "Outside Lower Band",
+          "value": "outside-lower-band",
+          "line": 8,
+          "column": 2,
+          "depth": 3
+        },
+        "out-of-band-down": {
+          "type": "header",
+          "text": "Out-Of-Band Down",
+          "value": "out-of-band-down",
+          "line": 9,
+          "column": 2,
+          "depth": 3
+        }
+      },
       "children": [],
       "parent": "CJjXpPZTSlH8oGfLKCyWJ",
       "data": {}
@@ -3663,9 +3849,163 @@
         "AVKfBlfAHnnI8A2PvWGr8",
         "dfUqIAhqB3HZ37D3mZvl4",
         "Uw9ZLUMgIxafVXqvvuhFS",
-        "ZeSdFP8Now3hB9EPE7JaJ"
+        "ZeSdFP8Now3hB9EPE7JaJ",
+        "h2pc0sha3ln7qjo4zv8idds"
       ],
       "parent": "btcJ1iYL8opVgT0VWiuzE",
+      "data": {},
+      "schema": {
+        "schemaId": "mm",
+        "moduleId": "daily"
+      }
+    },
+    "h2pc0sha3ln7qjo4zv8idds": {
+      "id": "h2pc0sha3ln7qjo4zv8idds",
+      "title": "2022-02-27",
+      "desc": "",
+      "updated": 1645994547367,
+      "created": 1645991402770,
+      "traitIds": [
+        "journalNote"
+      ],
+      "custom": {},
+      "fname": "daily.journal.2022.02.27",
+      "type": "note",
+      "vault": {
+        "fsPath": "jchartupdates",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
+        },
+        "name": "jchartupdates"
+      },
+      "contentHash": "611da13bae424ae33d9aee358d59967c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "id": "h2pc0sha3ln7qjo4zv8idds",
+            "vaultName": "jchartupdates"
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 5,
+              "offset": 308
+            },
+            "end": {
+              "line": 22,
+              "column": 39,
+              "offset": 342
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "strategies.current-range-break"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "id": "h2pc0sha3ln7qjo4zv8idds",
+            "vaultName": "jchartupdates"
+          },
+          "value": "ind.levels.LEVEL_F",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 136
+            },
+            "end": {
+              "line": 10,
+              "column": 24,
+              "offset": 159
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "ind.levels.LEVEL_F"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "daily.journal.2022.02.27",
+            "id": "h2pc0sha3ln7qjo4zv8idds",
+            "vaultName": "jchartupdates"
+          },
+          "value": "ind.steptrend.STEPTREND_DOWN",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 1,
+              "offset": 179
+            },
+            "end": {
+              "line": 14,
+              "column": 34,
+              "offset": 212
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "ind.steptrend.STEPTREND_DOWN"
+          }
+        }
+      ],
+      "anchors": {
+        "overall-market": {
+          "type": "header",
+          "text": "Overall Market",
+          "value": "overall-market",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "spy-level": {
+          "type": "header",
+          "text": "SPY Level",
+          "value": "spy-level",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "spy-direction": {
+          "type": "header",
+          "text": "SPY Direction",
+          "value": "spy-direction",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "strong-sectors": {
+          "type": "header",
+          "text": "Strong Sectors",
+          "value": "strong-sectors",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "strategiescurrent-range-break": {
+          "type": "header",
+          "text": "strategies.current-range-break",
+          "value": "strategiescurrent-range-break",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "QMwAhCyEOyfwTaPBAu69l",
       "data": {},
       "schema": {
         "schemaId": "mm",
@@ -3676,7 +4016,7 @@
       "id": "ZeSdFP8Now3hB9EPE7JaJ",
       "title": "2022-02-19",
       "desc": "",
-      "updated": 1645285139349,
+      "updated": 1645287235114,
       "created": 1645285003469,
       "traitIds": [
         "journalNote"
@@ -3692,36 +4032,8 @@
         },
         "name": "jchartupdates"
       },
-      "contentHash": "641f1bfbec80dbe524cd09de579ac8ba",
+      "contentHash": "d4d6d1770dfca5f24b2422e3c8b8b5e9",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "daily.journal.2022.02.19",
-            "id": "ZeSdFP8Now3hB9EPE7JaJ",
-            "vaultName": "jchartupdates"
-          },
-          "value": "strategies.exponential-regression",
-          "alias": "strategies.exponential-regression",
-          "position": {
-            "start": {
-              "line": 17,
-              "column": 43,
-              "offset": 225
-            },
-            "end": {
-              "line": 17,
-              "column": 80,
-              "offset": 262
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "strategies.exponential-regression"
-          }
-        },
         {
           "type": "ref",
           "from": {
@@ -3816,19 +4128,11 @@
           "column": 0,
           "depth": 2
         },
-        "top-10-ranked-momentum-stocks-based-on-strategiesexponential-regression": {
-          "type": "header",
-          "text": "Top 10 Ranked Momentum Stocks based on strategies.exponential-regression",
-          "value": "top-10-ranked-momentum-stocks-based-on-strategiesexponential-regression",
-          "line": 25,
-          "column": 0,
-          "depth": 2
-        },
         "focus-stocks": {
           "type": "header",
           "text": "Focus Stocks",
           "value": "focus-stocks",
-          "line": 27,
+          "line": 25,
           "column": 0,
           "depth": 2
         }

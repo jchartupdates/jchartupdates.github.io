@@ -1,39 +1,7 @@
 {
-  "version": 4,
-  "useFMTitle": true,
-  "useNoteTitleForLink": true,
-  "mermaid": true,
-  "useKatex": true,
+  "version": 5,
   "dev": {
     "enablePreviewV2": true
-  },
-  "site": {
-    "siteUrl": "jchartupdates.github.io",
-    "copyAssets": true,
-    "siteHierarchies": [
-      "root"
-    ],
-    "siteRootDir": "docs",
-    "usePrettyRefs": true,
-    "title": "JchartUpdates",
-    "description": "Stock Market Level and Direction",
-    "siteLastModified": true,
-    "gh_edit_branch": "main",
-    "duplicateNoteBehavior": {
-      "action": "useVault",
-      "payload": [
-        "jchartupdates"
-      ]
-    },
-    "usePrettyLinks": true,
-    "siteNotesDir": "notes",
-    "siteFaviconPath": "favicon.ico",
-    "gh_edit_link": true,
-    "gh_edit_link_text": "Edit this page on GitHub",
-    "gh_root": "docs/",
-    "gh_edit_view_mode": "edit",
-    "writeStubs": true,
-    "siteIndex": "root"
   },
   "commands": {
     "lookup": {
@@ -56,7 +24,8 @@
     },
     "insertNoteIndex": {
       "enableMarker": false
-    }
+    },
+    "copyNoteLink": {}
   },
   "workspace": {
     "vaults": [
@@ -115,7 +84,8 @@
     "enableAutoFoldFrontmatter": false,
     "maxPreviewsCached": 10,
     "maxNoteLength": 204800,
-    "enableEditorDecorations": true
+    "enableEditorDecorations": true,
+    "dendronVersion": "0.83.0"
   },
   "preview": {
     "enableFMTitle": true,
@@ -124,5 +94,66 @@
     "enablePrettyRefs": true,
     "enableKatex": true,
     "automaticallyShowPreview": true
+  },
+  "publishing": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enableMermaid": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true,
+    "copyAssets": true,
+    "siteHierarchies": [
+      "root"
+    ],
+    "enableSiteLastModified": true,
+    "siteRootDir": "docs",
+    "siteUrl": "jchartupdates.github.io",
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "jchartupdates"
+      ]
+    },
+    "writeStubs": false,
+    "seo": {
+      "title": "JchartUpdates",
+      "description": "Stock Market Level and Direction"
+    },
+    "github": {
+      "enableEditLink": true,
+      "editLinkText": "Edit this page on GitHub",
+      "editBranch": "main",
+      "editViewMode": "tree"
+    },
+    "enablePrettyLinks": true
+  },
+  "useFMTitle": true,
+  "useNoteTitleForLink": true,
+  "mermaid": true,
+  "useKatex": true,
+  "site": {
+    "copyAssets": true,
+    "siteHierarchies": [
+      "root"
+    ],
+    "siteRootDir": "docs",
+    "usePrettyRefs": true,
+    "title": "Dendron",
+    "description": "Personal knowledge space",
+    "siteLastModified": true,
+    "gh_edit_branch": "main",
+    "siteUrl": "localhost:3000",
+    "usePrettyLinks": true,
+    "siteNotesDir": "notes",
+    "siteFaviconPath": "favicon.ico",
+    "gh_edit_link": true,
+    "gh_edit_link_text": "Edit this page on GitHub",
+    "gh_root": "docs/",
+    "gh_edit_view_mode": "edit",
+    "writeStubs": true,
+    "siteIndex": "root"
   }
 }

@@ -2,7 +2,7 @@
 id: ZeSdFP8Now3hB9EPE7JaJ
 title: '2022-02-19'
 desc: ''
-updated: 1645285139349
+updated: 1645287235114
 created: 1645285003469
 traitIds:
   - journalNote
@@ -22,7 +22,5 @@ traitIds:
 ### Strong Sectors
 
 ## First 50 Day High after MA 10 x 21
-
-## Top 10 Ranked Momentum Stocks based on [[strategies.exponential-regression]]
 
 ## Focus Stocks

@@ -1,6 +1,25 @@
-version: 5
+version: 4
+useFMTitle: true
+useNoteTitleForLink: true
+mermaid: true
+useKatex: true
 dev:
     enablePreviewV2: true
+site:
+    siteUrl: jchartupdates.github.io
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true
+    title: JchartUpdates
+    description: Stock Market Level and Direction
+    siteLastModified: true
+    gh_edit_branch: main
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - jchartupdates
 commands:
     lookup:
         note:
@@ -8,8 +27,6 @@ commands:
             confirmVaultOnCreate: false
             leaveTrace: false
             bubbleUpCreateNew: true
-            vaultSelectionModeOnCreate: smart
-            fuzzThreshold: 0.2
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -18,15 +35,13 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
 workspace:
     vaults:
-        -
-            fsPath: jchartupdates
-            remote:
-                type: git
-                url: 'git@github.com-ju:jchartupdates/jchartupdates.github.io.git'
-            name: jchartupdates
+        - fsPath: jchartupdates
+          remote:
+              type: git
+              url: "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
+          name: jchartupdates
     journal:
         dailyDomain: daily
         name: journal
@@ -37,11 +52,11 @@ workspace:
         dateFormat: y.MM.dd.HHmmss
         addBehavior: asOwnDomain
     task:
-        name: ''
-        dateFormat: ''
+        name: ""
+        dateFormat: ""
         addBehavior: childOfCurrent
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -49,7 +64,7 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
         prioritySymbols:
             H: high
             M: medium
@@ -67,8 +82,6 @@ workspace:
     enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    enableEditorDecorations: true
-    dendronVersion: 0.83.0
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -76,32 +89,3 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: true
-publishing:
-    enableFMTitle: true
-    enableNoteTitleForLink: true
-    enableMermaid: true
-    enablePrettyRefs: true
-    enableKatex: true
-    copyAssets: true
-    siteHierarchies:
-        - root
-    enableSiteLastModified: true
-    siteRootDir: docs
-    siteUrl: jchartupdates.github.io
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-    enableRandomlyColoredTags: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - jchartupdates
-    writeStubs: false
-    seo:
-        title: JchartUpdates
-        description: Stock Market Level and Direction
-    github:
-        enableEditLink: true
-        editLinkText: Edit this page on GitHub
-        editBranch: main
-        editViewMode: tree
-    enablePrettyLinks: true

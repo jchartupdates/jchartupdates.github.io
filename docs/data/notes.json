@@ -14,8 +14,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1645998279541,
-      "created": 1645998279541,
+      "updated": 1646516965299,
+      "created": 1646516965300,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -119,7 +119,7 @@
       "id": "o0nsbi6LUS5CNLlMvxiSx",
       "title": "Journal",
       "desc": "",
-      "updated": 1645287214629,
+      "updated": 1646515205303,
       "created": 1644093999187,
       "custom": {},
       "fname": "templates.daily.journal",
@@ -132,8 +132,37 @@
         },
         "name": "jchartupdates"
       },
-      "contentHash": "4983bde127053e9414fd2651e4b63dce",
-      "links": [],
+      "contentHash": "49892a5ad4523d82dba13f17b9692f88",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.daily.journal",
+            "id": "o0nsbi6LUS5CNLlMvxiSx",
+            "vaultName": "jchartupdates"
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 5,
+              "offset": 76
+            },
+            "end": {
+              "line": 10,
+              "column": 39,
+              "offset": 110
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "strategies.current-range-break"
+          }
+        }
+      ],
       "anchors": {
         "overall-market": {
           "type": "header",
@@ -158,6 +187,22 @@
           "line": 12,
           "column": 0,
           "depth": 2
+        },
+        "strong-sectors": {
+          "type": "header",
+          "text": "Strong Sectors",
+          "value": "strong-sectors",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "strategiescurrent-range-break": {
+          "type": "header",
+          "text": "strategies.current-range-break",
+          "value": "strategiescurrent-range-break",
+          "line": 16,
+          "column": 0,
+          "depth": 3
         }
       },
       "children": [],
@@ -461,6 +506,28 @@
       "links": [
         {
           "from": {
+            "fname": "templates.daily.journal",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 5,
+              "offset": 76
+            },
+            "end": {
+              "line": 10,
+              "column": 39,
+              "offset": 110
+            },
+            "indent": []
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break"
+        },
+        {
+          "from": {
             "fname": "daily.journal.2022.02.27",
             "vaultName": "jchartupdates"
           },
@@ -475,6 +542,28 @@
               "line": 22,
               "column": 39,
               "offset": 342
+            },
+            "indent": []
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 5,
+              "offset": 385
+            },
+            "end": {
+              "line": 25,
+              "column": 39,
+              "offset": 419
             },
             "indent": []
           },
@@ -1566,6 +1655,27 @@
               "line": 11,
               "column": 32,
               "offset": 138
+            },
+            "indent": []
+          },
+          "value": "ind.steptrend.STEPTREND_UP"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 203
+            },
+            "end": {
+              "line": 15,
+              "column": 32,
+              "offset": 234
             },
             "indent": []
           },
@@ -2785,6 +2895,27 @@
             "indent": []
           },
           "value": "ind.levels.LEVEL_F"
+        },
+        {
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "vaultName": "jchartupdates"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 149
+            },
+            "end": {
+              "line": 10,
+              "column": 24,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "value": "ind.levels.LEVEL_F"
         }
       ],
       "anchors": {
@@ -3834,12 +3965,196 @@
       "links": [],
       "anchors": {},
       "children": [
-        "QMwAhCyEOyfwTaPBAu69l"
+        "QMwAhCyEOyfwTaPBAu69l",
+        "iq32bd3kz4i676eu1eoxp0b"
       ],
       "parent": "u1k85aP0787sKplXd9Qc6",
       "data": {},
       "schema": {
         "schemaId": "yyyy",
+        "moduleId": "daily"
+      }
+    },
+    "iq32bd3kz4i676eu1eoxp0b": {
+      "fname": "daily.journal.2022.03",
+      "stub": true,
+      "vault": {
+        "fsPath": "jchartupdates",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
+        },
+        "name": "jchartupdates"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1646516856843,
+      "created": 1646516856843,
+      "id": "iq32bd3kz4i676eu1eoxp0b",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "dj6oipi8hfalhvfk80nerdt"
+      ],
+      "parent": "btcJ1iYL8opVgT0VWiuzE",
+      "data": {},
+      "title": "03",
+      "schema": {
+        "schemaId": "mm",
+        "moduleId": "daily"
+      }
+    },
+    "dj6oipi8hfalhvfk80nerdt": {
+      "id": "dj6oipi8hfalhvfk80nerdt",
+      "title": "2022-03-05",
+      "desc": "",
+      "updated": 1646516113123,
+      "created": 1646515207681,
+      "traitIds": [
+        "journalNote"
+      ],
+      "custom": {},
+      "fname": "daily.journal.2022.03.05",
+      "type": "note",
+      "vault": {
+        "fsPath": "jchartupdates",
+        "remote": {
+          "type": "git",
+          "url": "git@github.com-ju:jchartupdates/jchartupdates.github.io.git"
+        },
+        "name": "jchartupdates"
+      },
+      "contentHash": "2d87d9438a9ad92f96d3b4cfaa66a4c3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "id": "dj6oipi8hfalhvfk80nerdt",
+            "vaultName": "jchartupdates"
+          },
+          "value": "strategies.current-range-break",
+          "alias": "strategies.current-range-break",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 5,
+              "offset": 385
+            },
+            "end": {
+              "line": 25,
+              "column": 39,
+              "offset": 419
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "strategies.current-range-break"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "id": "dj6oipi8hfalhvfk80nerdt",
+            "vaultName": "jchartupdates"
+          },
+          "value": "ind.levels.LEVEL_F",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 149
+            },
+            "end": {
+              "line": 10,
+              "column": 24,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "ind.levels.LEVEL_F"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "daily.journal.2022.03.05",
+            "id": "dj6oipi8hfalhvfk80nerdt",
+            "vaultName": "jchartupdates"
+          },
+          "value": "ind.steptrend.STEPTREND_UP",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 203
+            },
+            "end": {
+              "line": 15,
+              "column": 32,
+              "offset": 234
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "ind.steptrend.STEPTREND_UP"
+          }
+        }
+      ],
+      "anchors": {
+        "overall-market": {
+          "type": "header",
+          "text": "Overall Market",
+          "value": "overall-market",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "spy-level": {
+          "type": "header",
+          "text": "SPY Level",
+          "value": "spy-level",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "spy-direction": {
+          "type": "header",
+          "text": "SPY Direction",
+          "value": "spy-direction",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "strong-sectors": {
+          "type": "header",
+          "text": "Strong Sectors",
+          "value": "strong-sectors",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "strategiescurrent-range-break": {
+          "type": "header",
+          "text": "strategies.current-range-break",
+          "value": "strategiescurrent-range-break",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "iq32bd3kz4i676eu1eoxp0b",
+      "data": {},
+      "schema": {
+        "schemaId": "mm",
         "moduleId": "daily"
       }
     },
@@ -4040,7 +4355,7 @@
       "id": "ZeSdFP8Now3hB9EPE7JaJ",
       "title": "2022-02-19",
       "desc": "",
-      "updated": 1645287235114,
+      "updated": 1646515726769,
       "created": 1645285003469,
       "traitIds": [
         "journalNote"
@@ -4056,7 +4371,7 @@
         },
         "name": "jchartupdates"
       },
-      "contentHash": "d4d6d1770dfca5f24b2422e3c8b8b5e9",
+      "contentHash": "4725400fc8a4e88b9ee1758c2b64b9a8",
       "links": [
         {
           "type": "ref",

@@ -2,7 +2,7 @@
 id: o0nsbi6LUS5CNLlMvxiSx
 title: Journal
 desc: ''
-updated: 1645287214629
+updated: 1646515205303
 created: 1644093999187
 ---
 
@@ -12,3 +12,6 @@ created: 1644093999187
 
 ## SPY Direction
 
+### Strong Sectors
+
+### [[strategies.current-range-break]]
